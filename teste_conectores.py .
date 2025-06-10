@@ -1,0 +1,10 @@
+# Solicita ao usuário o preço do produto
+preco = float(input("Digite o preço do produto: R$ "))
+
+# Classifica o produto de acordo com o preço
+if preco <= 100:
+    print("Baixo custo - Prateleira 1")
+elif 101 <= preco <= 500:
+    print("Médio custo - Prateleira 2")
+else:
+    print("Alto custo - Prateleira 3")
